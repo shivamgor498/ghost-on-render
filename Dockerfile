@@ -1,7 +1,7 @@
 FROM ghost:5-alpine
 
 ENV NODE_ENV production
-ENV url https://systemsinpixels.com
+ENV url http://localhost:2368
 ENV database__client=sqlite3
 ENV database__connection__filename=/var/lib/ghost/content/data/ghost.db
 
